@@ -1,1 +1,20 @@
 greeting: "hello"
+
+---
+
+spring:
+  profiles: stage
+greeting: "welcome to staging server"
+
+---
+
+spring:
+  profiles: dev
+greeting: "welcome to dev server"
+
+---
+
+spring:
+  profiles: local
+greeting: "welcome to local"
+
