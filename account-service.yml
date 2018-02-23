@@ -1,20 +1,27 @@
-greeting: "hello"
+msaconfig
+  greeting: "hello"
 
 ---
 
 spring:
   profiles: stage
-greeting: "welcome to staging server"
+
+msaconfig:
+  greeting: "welcome to staging server"
 
 ---
 
 spring:
   profiles: dev
-greeting: "welcome to dev server"
+  
+msaconfig:
+  greeting: "welcome to dev server"
 
 ---
 
 spring:
   profiles: local
-greeting: "welcome to local"
+  
+msaconfig:
+  greeting: "welcome to local"
 
