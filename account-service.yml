@@ -23,5 +23,5 @@ spring:
   profiles: local
   
 msaconfig:
-  greeting: "welcome to local"
+  greeting: "welcome to local don't need to reboot when greeing modify"
 
