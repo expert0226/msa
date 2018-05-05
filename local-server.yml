@@ -18,6 +18,4 @@ spring:
   profiles: v1
   
 msaconfig:
-  greeting: "welcome to local mvp server"
-
----
+  greeting: "welcome to local v1 server"
