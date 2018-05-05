@@ -1,5 +1,23 @@
 spring:
-  profiles: local
+  profiles: pilot
 
 msaconfig:
-  greeting: "welcome to local server"
+  greeting: "welcome to local pilot server"
+
+---
+
+spring:
+  profiles: mvp
+  
+msaconfig:
+  greeting: "welcome to local mvp server"
+
+---
+
+spring:
+  profiles: v1
+  
+msaconfig:
+  greeting: "welcome to local mvp server"
+
+---
