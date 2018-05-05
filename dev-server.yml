@@ -1,5 +1,0 @@
-spring:
-  profiles: pilot
-
-msaconfig:
-  greeting: "welcome to dev server"
