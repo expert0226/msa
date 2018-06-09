@@ -3,7 +3,7 @@
 //구성순서는 상관없음
 
 //마이크로서비스 별 단계
-node('mas-service-coffee-order', { 
+node('', { 
   stage('stage-1', { 
     echo "hello coffee order 1 stage" 
   }) 
