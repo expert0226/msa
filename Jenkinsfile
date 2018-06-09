@@ -1,7 +1,7 @@
 node {
  	// Clean workspace before doing anything
     deleteDir()
-
+/*
     try {
         stage ('Clone') {
 		sh "echo 'checkout scm scripts'"
@@ -28,4 +28,5 @@ node {
         currentBuild.result = 'FAILED'
         throw err
     }
+    */
 }
