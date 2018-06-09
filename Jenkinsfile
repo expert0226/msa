@@ -64,7 +64,11 @@ stage("Parameter Check", {
   println " GIT_URL = $GIT_URL" 
   println " BRANCH_SELECTOR = $BRANCH_SELECTOR" 
   println " GRADLE_VERSION = $GRADLE_VERSION" 
-  println " JAVA_VERSION = $JAVA_VERSION" env.JAVA_HOME="${tool name : JAVA_VERSION}" env.PATH="${env.JAVA_HOME}/bin:${env.PATH}" 
+  println " JAVA_VERSION = $JAVA_VERSION" 
+  
+  //env.JAVA_HOME="${tool name : JAVA_VERSION}" 
+  //env.PATH="${env.JAVA_HOME}/bin:${env.PATH}" 
+  
   try { 
     println " SLACK_TOKEN = $SLACK_TOKEN" 
   } 
