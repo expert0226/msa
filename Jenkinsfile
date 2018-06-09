@@ -4,6 +4,17 @@
   case 2 : stage('stage-sample', { node('', { echo "" }) })
 */
 
+//환경변수
+BUILD_USER      = "jenkins"
+CONFIG_NAME     = "CONFIG_NAME"
+REMOTE_PATH     = "REMOTE_PATH"
+TARGET_USER     = "TARGET_USER"
+TARGET_SERVER   = "TARGET_SERVER"
+GIT_URL         = "GIT_URL"
+BRANCH_SELECTOR = "BRANCH_SELECTOR"
+GRADLE_VERSION  = "GRADLE_VERSION"
+JAVA_VERSION    = "JAVA_VERSION"
+
 //단계를 사용할지 여부를 결정
 def useTest   = true 
 def useBuild  = true 
@@ -56,7 +67,7 @@ stage("Flow Check", {
 })
 
 stage("Parameter Check", { 
-  //println " BUILD_USER = " + $BUILD_USER 
+  println " BUILD_USER =  + $BUILD_USER" 
   println " CONFIG_NAME = $CONFIG_NAME" 
   println " REMOTE_PATH = $REMOTE_PATH" 
   println " TARGET_USER = $TARGET_USER" 
