@@ -10,10 +10,10 @@ CONFIG_NAME     = "CONFIG_NAME"
 REMOTE_PATH     = "REMOTE_PATH"
 TARGET_USER     = "TARGET_USER"
 TARGET_SERVER   = "TARGET_SERVER"
-GIT_URL         = "GIT_URL"
+GIT_URL         = "https://github.com/architectstory/msa.git"
 BRANCH_SELECTOR = "BRANCH_SELECTOR"
-GRADLE_VERSION  = "GRADLE_VERSION"
-JAVA_VERSION    = "JAVA_VERSION"
+GRADLE_VERSION  = "4.13"
+JAVA_VERSION    = "1.8.0_151"
 
 //단계를 사용할지 여부를 결정
 def useTest   = true 
