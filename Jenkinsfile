@@ -101,8 +101,10 @@ stage('Test') {
     } 
     finally { 
       junit allowEmptyResults: true, keepLongStdio: true, testResults: 'build/test-results/*.xml' 
-    } println "Test End" 
-  } else { 
+    } 
+    println "Test End" 
+  } 
+  else { 
     println "Test Skip" 
   } 
 }
