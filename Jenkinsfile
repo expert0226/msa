@@ -11,7 +11,7 @@ REMOTE_PATH     = "REMOTE_PATH"
 TARGET_USER     = "TARGET_USER"
 TARGET_SERVER   = "TARGET_SERVER"
 GIT_URL         = "https://github.com/architectstory/msa.git"
-BRANCH_SELECTOR = "BRANCH_SELECTOR"
+BRANCH_SELECTOR = "msa-service-coffee-order"
 GRADLE_VERSION  = "4.13"
 JAVA_VERSION    = "1.8.0_151"
 
