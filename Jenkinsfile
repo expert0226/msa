@@ -56,7 +56,7 @@ stage("Flow Check", {
 })
 
 stage("Parameter Check", { 
-  println " BUILD_USER = " + BUILD_USER 
+  //println " BUILD_USER = " + $BUILD_USER 
   println " CONFIG_NAME = $CONFIG_NAME" 
   println " REMOTE_PATH = $REMOTE_PATH" 
   println " TARGET_USER = $TARGET_USER" 
