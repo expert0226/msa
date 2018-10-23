@@ -1,3 +1,5 @@
+message: default
+
 msaconfig:
   greeting: "hello"
   
@@ -5,6 +7,8 @@ msaconfig:
 
 spring:
   profiles: local
+
+message: local
 
 msaconfig:
   greeting: "welcome to local server"
